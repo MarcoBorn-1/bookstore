@@ -1,0 +1,94 @@
+.app{
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.menuButton{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    font-size: 100%;
+    padding: 0;
+    opacity: 1;
+    background: #aa3e19;
+}
+
+.table .table .table-striped .table-bordered .table-hover {
+    box-sizing: border-box;
+}
+.row {
+    height: 100%;
+}
+
+.nav-link {
+    height: 100%;
+}
+
+.menuButton:hover{
+    background: #323756;
+}
+
+.products {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.back1{
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.pagination {
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+ul.pagination li {
+    width: 60px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+ul.pagination li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+ul.pagination li.active a {
+    color: white;
+}
+
+ul.pagination li.active {
+    background-color: #aa3e19;
+}
+
+ul.pagination li a:hover,
+ul.pagination li a.active {
+    color: #323756;
+}
+
+.page-selection {
+    width: 48px;
+    height: 30px;
+    background: #337ab7;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
